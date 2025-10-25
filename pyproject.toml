@@ -1,0 +1,21 @@
+[project]
+name = "mdllmngr"
+version = "0.3.0"
+description = "mdLLMngr Control Tower: local-first drone orchestration and RAG stack"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "weaviate-client>=4.16",
+    "langchain>=0.3",
+    "langchain-ollama>=0.2",
+    "ollama>=0.3",
+    "unstructured>=0.15",
+    "nbformat>=5.10",
+    "python-magic>=0.4",
+    "tqdm>=4.66",
+    "pydantic>=2",
+    "sqlite-utils>=3.36",
+    "ipywidgets>=8",
+    "jupyterlab>=4.2",
+    "docker>=7.0.0",
+]
